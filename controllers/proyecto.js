@@ -52,7 +52,7 @@ const createProyecto = async (req = request, res = response) => {
   }
 };
 
-//listar todos
+
 //listar todos
 const getProyectos = async (req = request, res = response) => {
     try {
