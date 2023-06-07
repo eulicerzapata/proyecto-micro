@@ -6,10 +6,10 @@ services:
     build:
       context: .
     ports:
-      - "4002"
+      - "3002"
     environment:
       - MONGO_URI=${MONGO_URI}
-      - PORT=3002
+      - PORT=4002
     networks:
       - proyectos-app
 
@@ -23,4 +23,5 @@ services:
     networks:
       - proyectos-app
 networks:
-  proyectos-app:p:
+  proyectos-app:
+
