@@ -9,7 +9,7 @@ services:
       - "3002"
     environment:
       - MONGO_URI=${MONGO_URI}
-      - PORT=4002
+      - PORT=3002
     networks:
       - proyectos-app
 
